@@ -1,34 +1,37 @@
 body {
     background-color: rgb(20, 20, 20);
 }
+
 .jumbotron {
     position: relative;
     overflow: hidden;
-    background-color:black;
-    height: 75vh;
-  }
-  .jumbotron video {
+    background-color: black;
+    height: 80vh;
+}
+
+.jumbotron video {
     position: absolute;
     z-index: 1;
     top: 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     /*  object-fit is not supported on IE  */
     object-fit: cover;
-    opacity:0.5;
-  }
-  .jumbotron .container {
+    opacity: 0.5;
+}
+
+.jumbotron .container {
     z-index: 2;
     position: relative;
-  }
+}
 
-  #h1{
+#h1 {
     font-family: 'Caveat', cursive;
 
-  }
+}
 
 .navbar {
-    background-color:linear-gradient(0deg, rgba(20,20,20,1) 7%, rgba(0,0,0,0.9906556372549019) 66%);
+    background-color: linear-gradient(0deg, rgba(20, 20, 20, 1) 7%, rgba(0, 0, 0, 0.9906556372549019) 66%);
     color: white;
     height: 8vh;
 }
@@ -112,20 +115,22 @@ body {
 .cards-wrapper {
     display: flex;
     justify-content: center;
-  }
-  .card img {
+}
+
+.card img {
     max-width: 100%;
     max-height: 100%;
-  }
-  .card {
+}
+
+.card {
     margin: 0 0.1em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
     border-radius: 0;
     transition: transform .2s;
-  }
- 
-  /* .carousel-control-prev,
+}
+
+/* .carousel-control-prev,
   .carousel-control-next {
     background-color: #e1e1e1;
     width: 5vh;
@@ -134,46 +139,48 @@ body {
     top: 50%;
     transform: translateY(-50%);
   } */
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .card img {
-      height: 13em;
+        height: 13em;
     }
-  }
+}
 
-  .carousel{
+.carousel {
     overflow: visible;
-  }
-  .carousel-control-next, .carousel-control-prev{
+}
+
+.carousel-control-next,
+.carousel-control-prev {
     width: 5%;
     opacity: 2;
-  }
+}
 
-  .footer {
+.footer {
     max-width: 70%;
     margin: 1rem auto;
     overflow: auto;
 }
- 
+
 .footer,
 .footer a {
     color: #999;
     font-size: 0.9rem;
 }
- 
+
 /* .footer {
     margin-bottom: 6.5rem;
 } */
- 
+
 .footer .footer-cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
 }
- 
+
 .footer li {
     line-height: 1.9;
 }
- 
+
 .footer .lang-select {
     margin-top: 2rem;
     color: #999;
@@ -183,14 +190,14 @@ body {
     padding: 1rem 1.2rem;
     border-radius: 5px;
 }
- 
-.footer-list-style li{
+
+.footer-list-style li {
     list-style: none;
     line-height: 35px;
     margin-left: -40px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.1);
     overflow-x: scroll;
     overflow-y: visible;
@@ -198,58 +205,66 @@ body {
     margin: 0 30px;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #000;
 }
 
-.dropdown .dropdown-menu a{
+.dropdown .dropdown-menu a {
     color: white;
 }
-.hr-divider{
-    margin-left: 20%;
-}
-.profile-header{
+
+.hr-divider {
     margin-left: 20%;
 }
 
-#save-btn:hover{
+.profile-header {
+    margin-left: 20%;
+}
+
+#save-btn:hover {
     background-color: red;
     color: white;
     border: none;
 }
-.other-btn:hover{
+
+.other-btn:hover {
     background-color: transparent;
     color: white;
     border-color: white;
 }
-#account-body{
+
+#account-body {
     background-color: white;
 }
-#account-nav{
-   background-color: black;
-   height: 8vh;
+
+#account-nav {
+    background-color: black;
+    height: 8vh;
 }
 
-#account-setting{
+#account-setting {
     line-height: 7px;
 }
-#cancel-button{
+
+#cancel-button {
     background-color: rgb(234, 233, 233);
     box-shadow: rgb(128, 128, 128);
 }
-#cancel-button:hover{
+
+#cancel-button:hover {
     background-color: rgb(255, 251, 251);
 
 }
-.border-h{
+
+.border-h {
     background-color: rgb(115, 109, 109);
-    
+
 }
-/* #video-btn{
-    width: 10%;
-    height: 48px;
+
+ /* #jumbotron {
+    position: relative;
 }
-#info{
-    width: 15%;
-    height: 50px;
-} */
+
+ #tv-show{
+    position: absolute;
+}  */
